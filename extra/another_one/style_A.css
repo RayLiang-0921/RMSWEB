@@ -1,0 +1,121 @@
+h1,h2,h3,h4,h5,h6,p,a,span,textarea,input,label,ul,li{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#intro .jumbotron{
+    height:70vh;
+}
+.btn{
+    background-color: rgba(218, 0, 0, 0.774);
+    border-radius: 20px;color: white;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#intro h1{
+    font-size: 55px;
+    line-height: 1.5;
+}
+#intro p{
+    font-weight: 400
+}
+#intro .container{
+    position:relative;top: 50%;
+    transform: translateY(-50%);
+}
+header nav img{
+    width: 110px;
+}
+nav li a{
+    margin-left: 12px;margin-right: 12px;font-size: 20px;
+}
+.section2 img{
+    text-align: center;
+}
+.T1{
+    font-size: 20px;font-weight: bold;display: block;margin-top: 10px;margin-bottom: 10px;
+}
+
+h2{
+    font-size: 35px
+}
+.T2{
+    margin-top: 10px;margin-bottom: 10px;
+}
+.jumbotron{
+    background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");background-repeat: no-repeat;background-size: cover;
+}
+#intro h1{
+    color: white;
+}
+#intro p{
+    color: white;
+}
+
+h4{
+    font-size:20px;margin: 15px;
+}
+.content h3{
+    text-align:center;line-height: 80px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.content {
+    min-height: 30%;
+}
+.content-inside {
+    padding: 20px;
+}
+.display{
+    display: inline-block;vertical-align: top;
+}
+#second h2{
+    margin-top: 50px;
+}
+.totop{
+    background-color: rgb(255, 255, 255);position: fixed;
+    right: 50px;bottom: 50px;height: 80px;
+    width: 80px;border-radius: 50%;
+    font-size: 70px;padding: 0px;margin: 0px;
+    text-decoration: none;box-shadow: 10px 10px 10px;
+    display: flex;justify-content: center;align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#to_top{
+    text-decoration: none;
+}
+.galary {
+    transition: 0.2s;text-decoration: none;
+}
+.galary:hover {
+    box-shadow: 5px 3px 15px 6px rgba(51, 51, 51, 0.5);text-decoration: white;
+}
+p{
+    word-break: normal;word-wrap: break-word;
+}
+.nav-link{
+    transition: ease 0.3s;
+}
+.nav-link:hover{
+    background-color: wheat;border-radius: 50px;
+}
+.navbar{
+    background: linear-gradient(to left, #ffffff, #ffffff);color: white;box-shadow: 2px 2px 15px #000000;
+}
+.wrap{
+    background: linear-gradient(to left, white, wheat);min-height: 100%;
+}
+section img{
+    max-width: 100%;border-radius:4%;transition: ease 0.3s;
+}
+section img:hover{
+    transform: translateY(-3px);
+}
+section{
+    text-align: center;display: flex;justify-content: center;flex-direction: column;
+}
+.row{
+    display:flex;align-items: center;justify-content: center;flex-direction: column;
+}
