@@ -6,3 +6,16 @@ to_top.addEventListener("click", function(){
     });
 }
 );
+
+const navslide = ()=>{
+    const NavBar = document.querySelector(".burger");
+    const Navigation = document.querySelector(".pointer");
+    NavBar.addEventListener("click", ()=>{
+        Navigation.style.transform = "translateY(0%)";
+    });
+    Navigation.addEventListener("click",()=>{
+        Navigation.style.transform = "translateY(-100%)";
+    });
+};
+
+navslide();

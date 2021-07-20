@@ -248,3 +248,34 @@ html .banner{
 #intro .row{
     margin-left: 0;margin-right: 0;
 }
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color:rgb(185, 185, 185);
+    margin: 5px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width:991px) {
+    .burger{
+        display:block;
+    }
+}
+.pointer{
+    top:0;left:0;right:0;bottom:0;position: fixed;align-items: center;background-color: rgb(255, 255, 255);
+    justify-content: space-around;transform: translateY(-100%);transition: 0.5s transform;padding: 50px
+}
+.pointer .bigOne{
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.pointer .smallOne{
+    list-style: none;justify-content:space-around
+}
+.pointer .smallOne a{
+    text-decoration: none;font-size: 30px;display:flex;align-items: center;justify-content: space-around;
+}

@@ -5,6 +5,20 @@ to_top.addEventListener("click", function(){
         left: 0,
     });
 });
+
+const navslide = ()=>{
+    const NavBar = document.querySelector(".burger");
+    const Navigation = document.querySelector(".pointer");
+    NavBar.addEventListener("click", ()=>{
+        Navigation.style.transform = "translateY(0%)";
+    });
+    Navigation.addEventListener("click",()=>{
+        Navigation.style.transform = "translateY(-100%)";
+    });
+};
+
+navslide();
+
 const P1 = document.getElementById("1");
 P1.addEventListener("click", function(){
     const image=document.createElement("img");

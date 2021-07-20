@@ -14,6 +14,7 @@ to_top.addEventListener("click", function(){
 
 
 
+
 //selectors
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
@@ -144,4 +145,17 @@ function removelocalStorage(todo){
     const todoIndex = todo.children[0].innerText;
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem("todos", JSON.stringify(todos));
-}
+};
+
+const navslide = ()=>{
+    const NavBar = document.querySelector(".burger");
+    const Navigation = document.querySelector(".pointer");
+    NavBar.addEventListener("click", ()=>{
+        Navigation.style.transform = "translateY(0%)";
+    });
+    Navigation.addEventListener("click",()=>{
+        Navigation.style.transform = "translateY(-100%)";
+    });
+};
+
+navslide();

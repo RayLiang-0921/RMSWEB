@@ -4,6 +4,11 @@ p,a,span,textarea,input,label,ul,li,h1,h2,h3,h4,h5,h6,option,select{
 #intro .jumbotron{
     height:70vh;
 }
+*{
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+}
 .btn{
     background-color: rgba(218, 0, 0, 0.774);
     border-radius: 20px;color: white;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -127,10 +132,12 @@ form button:hover{
 .todo{
     font-size: 25px;margin: 1rem;display: flex;
     align-items: center;background-color: white;
-    justify-content: space-between;transition :all 0.6s ease-in ;
+    justify-content: space-between;transition :all 0.6s ease-in;
 }
 .todo li{
-    flex: 1;
+    flex: 1;max-width: 100%;overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .trash-btn{
     background-color: teal;color: white;border: none;
@@ -153,7 +160,7 @@ i{
     pointer-events: none;
 }
 .todo-input{
-    word-wrap:break-word;
+    word-wrap:break-word;width: 80%;
 }
 
 .completed{
@@ -182,4 +189,33 @@ select{
 }
 .select:hover::after{
     background: white;color: #2ec4ff;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width:991px) {
+    .burger{
+        display:block;
+    }
+}
+.pointer{
+    top:0;left:0;right:0;bottom:0;position: fixed;align-items: center;background-color: rgb(255, 255, 255);
+    justify-content: space-around;transform: translateY(-100%);transition: 0.5s transform;padding: 50px
+}
+.pointer .bigOne{
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.pointer .smallOne{
+    list-style: none;justify-content:space-around
+}
+.pointer .smallOne a{
+    text-decoration: none;font-size: 30px;display:flex;align-items: center;justify-content: space-around;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color:rgb(185, 185, 185);
+    margin: 5px;
 }
