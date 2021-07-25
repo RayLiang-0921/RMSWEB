@@ -23,10 +23,10 @@ p,a,span,textarea,input,label,ul,li,h1,h2,h3,h4,h5,h6{
     font-weight: 400;
 }
 nav{
-    background-color:white
+    background-color:white;box-shadow: 10px 5px 10px black;z-index: 10;
 }
 header nav img{
-    width: 110px;
+    width: 150px;
 }
 nav li a{
     margin-left: 12px;margin-right: 12px;font-size: 20px;
@@ -84,7 +84,7 @@ html, body{
     padding-bottom: 100px;
 }
 .wrap{
-    min-height: 100%;background: linear-gradient(to left, white, wheat);
+    min-height: 100%;background: white
 }
 img{
     max-width: 100%;
@@ -218,16 +218,32 @@ html{
     animation: ma 1.5s alternate ease infinite;
 }
 .nav-link{
-    transition: ease 0.3s;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    background-color: transparent;
+    transition: all 0.35s linear;
 }
-.nav-link:hover{
-    background-color:wheat;border-radius: 50px
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 25px;
 }
 #kk{
     display: flex;justify-content: center;align-items: center;
 }
 .po{
-    z-index: 10;background: linear-gradient(to left,white , wheat);width:100%;position:absolute;
+    z-index: 10;background: white;width:100%;position:absolute;
 }
 .upper img{
     border-radius:4%;
@@ -267,15 +283,35 @@ html .banner{
 }
 .pointer{
     top:0;left:0;right:0;bottom:0;position: fixed;align-items: center;background-color: rgb(255, 255, 255);
-    justify-content: space-around;transform: translateY(-100%);transition: 0.5s transform;padding: 50px
+    justify-content: center;transform: translateY(-100%);transition: 0.5s transform;padding: 50px;display:flex;align-items: center;
 }
 .pointer .bigOne{
-    display: flex;justify-content: center;align-items: center;
-    flex-direction: column;
+    display: flex;justify-content: space-between;align-items: center;
+    flex-direction: column;height: 500px;
 }
 .pointer .smallOne{
-    list-style: none;justify-content:space-around
+    list-style: none;display:flex;align-items: center;justify-content: center
 }
 .pointer .smallOne a{
-    text-decoration: none;font-size: 30px;display:flex;align-items: center;justify-content: space-around;
+    text-decoration: none;font-size: 30px;display:flex;align-items: center;justify-content: center
+}
+.nav-link{
+    color: #000;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    background-color: transparent;
+    transition: all 0.35s linear;
+}
+.nav-link:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 25px;
 }

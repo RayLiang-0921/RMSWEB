@@ -25,7 +25,7 @@ p,a,span,textarea,input,label,ul,li,h1,h2,h3,h4,h5,h6,option,select{
     transform: translateY(-50%);
 }
 header nav img{
-    width: 110px;
+    width: 150px;
 }
 nav li a{
     margin-left: 12px;margin-right: 12px;font-size: 20px;
@@ -62,7 +62,7 @@ h4{
 html, body {
     margin: 0;
     padding: 0;
-    min-height: 100%;background: linear-gradient(to left, white, wheat);
+    min-height: 100%;background: white
 
 }
 .content {
@@ -102,32 +102,48 @@ p{
     word-break: normal;word-wrap: break-word;
 }
 .nav-link{
-    transition: ease 0.3s;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    background-color: transparent;
+    transition: all 0.35s linear;
 }
-.nav-link:hover{
-    background-color: wheat;border-radius: 50px;
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 25px;
 }
 .navbar{
     background: linear-gradient(to left, #ffffff, #ffffff);color: white;box-shadow: 2px 2px 15px #000000;
 }
 form{
-    min-height: 45vh;display: flex;justify-content: center;align-items: center;font-size: 20px;
+    height: 70px;display: flex;justify-content: center;align-items: center;font-size: 20px;margin-top: 70px;
 }
 form input,form button{
-    padding: 1rem;font-size: 25px;border: none;background: #ffffff;
+    padding: 1rem;font-size: 25px;border: none;background: #ffffff;border : 5px rgb(0, 0, 0) solid;
 }
 form button{
-    color: #2ec4ff;background-color: white;cursor: pointer;transition: 0.5s;
+    color: #ffffff;background-color: rgb(0, 0, 0);cursor: pointer;transition: 0.5s;width: 70px;
 }
 form button:hover{
-    color: white;background-color: #2ec4ff;
+    color: teal;
 }
 .todo-container{
     display: flex;align-items: center;
     justify-content: center;
 }
 .todo-list{
-    list-style: none;min-width: 50%;
+    list-style: none;width: 80%;margin: 20px;
 }
 .todo{
     font-size: 25px;margin: 1rem;display: flex;
@@ -138,6 +154,7 @@ form button:hover{
     flex: 1;max-width: 100%;overflow:hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-size: 1rem;padding: 1rem;background-color: rgb(255, 246, 246)
 }
 .trash-btn{
     background-color: teal;color: white;border: none;
@@ -145,7 +162,7 @@ form button:hover{
 }
 .complete-btn{
     background-color: rgb(0, 221, 0);color: white;transition: 0.4s;
-    border: none;padding: 1rem;font-size: 1rem;cursor: pointer;
+    padding: 1rem;font-size: 1rem;cursor: pointer;
 }
 .trash-btn:hover{
     background-color: rgb(255, 255, 255);color: teal;transition: 0.4s;
@@ -160,7 +177,7 @@ i{
     pointer-events: none;
 }
 .todo-input{
-    word-wrap:break-word;width: 80%;
+    word-wrap:break-word;width: 70%;
 }
 
 .completed{
@@ -181,14 +198,14 @@ select{
     margin: 1rem;position: relative;overflow: hidden;
 }
 select{
-    color: #2ec4ff;width: 15rem;cursor: pointer;padding: 1rem;
+    color: teal;width: 15rem;cursor: pointer;padding: 1rem;
 }
 .select::after{
-    content: "\25BC";position: absolute;background: #2ec4ff;color: #ffffff;
+    content: "\25BC";position: absolute;background: teal;color: #ffffff;
     top: 0;right: 0;padding: 1rem;pointer-events: none;transition: all 0.5s ease;
 }
 .select:hover::after{
-    background: white;color: #2ec4ff;
+    background: white;color: teal;
 }
 .burger{
     display: none;
@@ -218,4 +235,38 @@ select{
     height: 3px;
     background-color:rgb(185, 185, 185);
     margin: 5px;
+}
+.pointer{
+    top:0;left:0;right:0;bottom:0;position: fixed;align-items: center;background-color: rgb(255, 255, 255);
+    justify-content: center;transform: translateY(-100%);transition: 0.5s transform;padding: 50px;display:flex;align-items: center;
+}
+.pointer .bigOne{
+    display: flex;justify-content: space-between;align-items: center;
+    flex-direction: column;height: 300px;
+}
+.pointer .smallOne{
+    list-style: none;display:flex;align-items: center;justify-content: center
+}
+.pointer .smallOne a{
+    text-decoration: none;font-size: 30px;display:flex;align-items: center;justify-content: center
+}
+.nav-link{
+    color: #000;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    background-color: transparent;
+    transition: all 0.35s linear;
+}
+.nav-link:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 25px;
 }

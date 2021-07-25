@@ -13,17 +13,29 @@ var li_6 =document.getElementById("c6");
 const survey = document.querySelector(".survey");
 const end = document.querySelector(".end");
 // first q
-ul_1.addEventListener("click",function(){
+li_1.addEventListener("click",function(){
+    q1.remove()
+    q2.style.display="block";
+});
+li_2.addEventListener("click",function(){
     q1.remove()
     q2.style.display="block";
 });
 // second
-ul_2.addEventListener("click",function(){
+li_3.addEventListener("click",function(){
+    q2.remove();
+    q3.style.display="block";
+});
+li_4.addEventListener("click",function(){
     q2.remove();
     q3.style.display="block";
 });
 // third
-ul_3.addEventListener("click",function(){
+li_5.addEventListener("click",function(){
+    q3.remove();
+    end.style.display="block";
+});
+li_6.addEventListener("click",function(){
     q3.remove();
     end.style.display="block";
 });

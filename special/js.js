@@ -6,6 +6,7 @@ to_top.addEventListener("click", function(){
     });
 }
 );
+
 const navslide = ()=>{
     const NavBar = document.querySelector(".burger");
     const Navigation = document.querySelector(".pointer");
@@ -16,6 +17,5 @@ const navslide = ()=>{
         Navigation.style.transform = "translateY(-100%)";
     });
 };
-navslide();
 
-////////////////////////////////booking stuff.
+navslide();
