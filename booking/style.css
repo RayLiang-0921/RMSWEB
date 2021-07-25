@@ -225,7 +225,7 @@ ol img{
     transform: rotate(1turn) translateX(5px);color:rgb(255, 255, 255);border-radius: 50%;
 }
 .search-input{
-    width:70%;border: 5px black solid;
+    width:70%;border: 5px black solid;font-size: 30px;padding: 10px;
 }
 .search-form{
     display:flex;justify-content:center;margin-top: 70px;height:70px;
