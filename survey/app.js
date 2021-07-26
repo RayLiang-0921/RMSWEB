@@ -19,8 +19,8 @@ li_1.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");
@@ -48,8 +48,8 @@ li_2.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");
@@ -77,8 +77,8 @@ li_3.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");
@@ -106,8 +106,8 @@ li_4.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");
@@ -135,8 +135,8 @@ li_5.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");
@@ -164,8 +164,8 @@ li_6.addEventListener("click", function(){
     a.id="1";
     twist.appendChild(a);
     const P1 = document.getElementById("1");
+    const image=document.createElement("img");
     P1.addEventListener("click", function(){
-        const image=document.createElement("img");
         image.src =a.src;
         image.className = "max";
         const b = document.getElementById("point");

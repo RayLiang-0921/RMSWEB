@@ -190,14 +190,11 @@ section{
     box-shadow: #000000 15px 15px 15px;transition:0.3s;transform: translateY(-3px);
 }
 #point{
-    right: 0;left: 0px;top: 0px;bottom: 0px;position: fixed;display:flex;justify-content: center;background-color: #000;
+    right: 0;left: 0px;top: 0px;bottom: 0px;position: fixed;display:flex;justify-content: center;
     align-items: center;backdrop-filter: blur(10px);transform: translateY(-100%);transition: 0.5s transform;padding: 50px;
 }
 .max{
     max-height: 100%;cursor: pointer;
-}
-.max img{
-    opacity: 100%;
 }
 .burger{
     display: none;

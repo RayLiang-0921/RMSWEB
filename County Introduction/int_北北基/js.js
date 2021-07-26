@@ -30,9 +30,11 @@ P1.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -46,9 +48,11 @@ P2.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -62,9 +66,11 @@ P3.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -78,9 +84,11 @@ P4.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -94,9 +102,11 @@ P5.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -110,9 +120,11 @@ P6.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -126,9 +138,11 @@ P7.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -142,9 +156,11 @@ P8.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -158,9 +174,11 @@ P9.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -174,9 +192,11 @@ P10.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -190,9 +210,11 @@ P11.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -206,9 +228,11 @@ P12.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -222,9 +246,11 @@ P13.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -238,9 +264,11 @@ P14.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -254,9 +282,11 @@ P15.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -270,9 +300,11 @@ P16.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 

@@ -30,9 +30,11 @@ P1.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -46,9 +48,11 @@ P2.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -62,9 +66,11 @@ P3.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -78,9 +84,11 @@ P4.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -94,9 +102,11 @@ P5.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
 
@@ -110,8 +120,10 @@ P6.addEventListener("click", function(){
     b.appendChild(image);
     image.addEventListener("click", function(){
         b.style.transform ="translateY(-100%)";
-        image.src="";
-        image.alt="";
-        image.remove();
+        setTimeout(()=>{
+            image.src="";
+            image.alt="";
+            image.remove();
+        },250);
     });
 });
