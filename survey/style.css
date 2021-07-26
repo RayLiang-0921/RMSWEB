@@ -94,21 +94,8 @@ html{
 p{
     word-break: normal;word-wrap: break-word;
 }
-.nav-link{
-    width: 150px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    line-height: 40px;
-    background-color: transparent;
-    transition: all 0.35s linear;
-}
 .navbar-light .navbar-nav .nav-link{
     color: #000;
-    margin-left: 40px;
     margin-right: 40px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -246,8 +233,6 @@ section{
 }
 .nav-link{
     color: #000;
-    margin-left: 40px;
-    margin-right: 40px;
     width: 150px;
     height: 50px;
     display: flex;

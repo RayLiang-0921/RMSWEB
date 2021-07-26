@@ -112,7 +112,6 @@ p{
 }
 .navbar-light .navbar-nav .nav-link{
     color: #000;
-    margin-left: 40px;
     margin-right: 40px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -202,8 +201,6 @@ ol img{
 }
 .nav-link{
     color: #000;
-    margin-left: 40px;
-    margin-right: 40px;
     width: 150px;
     height: 50px;
     display: flex;
