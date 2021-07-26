@@ -11,6 +11,7 @@ const survey = document.querySelector(".survey");
 const end = document.querySelector(".end");
 li_1.addEventListener("click", function(){
     change.innerText=("\nPingtung \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%B1%8F%E6%9D%B1/int_%E5%B1%8F%E6%9D%B1.html");
     var a = document.createElement("img");
     a.src="Pingtung.jpg";
@@ -39,6 +40,7 @@ li_1.addEventListener("click", function(){
 });
 li_2.addEventListener("click", function(){
     change.innerText=("\nTaipei \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8C%97%E5%8C%97%E5%9F%BA/%E5%8C%97%E5%8C%97%E5%9F%BA.html");
     var a = document.createElement("img");
     a.src="Keelung,New Taipei,Taipei.jpg";
@@ -67,6 +69,7 @@ li_2.addEventListener("click", function(){
 });
 li_3.addEventListener("click", function(){
     change.innerText=("\nHualien \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E8%8A%B1%E8%93%AE/int_%E8%8A%B1%E8%93%AE.html");
     var a = document.createElement("img");
     a.className="image";
@@ -95,6 +98,7 @@ li_3.addEventListener("click", function(){
 });
 li_4.addEventListener("click", function(){
     change.innerText=("\nNantou \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8D%97%E6%8A%95/int_%E5%8D%97%E6%8A%95.html");
     var a = document.createElement("img");
     a.className="image";
@@ -123,6 +127,7 @@ li_4.addEventListener("click", function(){
 });
 li_5.addEventListener("click", function(){
     change.innerText=("\nNew Taipei \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8C%97%E5%8C%97%E5%9F%BA/%E5%8C%97%E5%8C%97%E5%9F%BA.html");
     var a = document.createElement("img");
     a.className="image";
@@ -151,6 +156,7 @@ li_5.addEventListener("click", function(){
 });
 li_6.addEventListener("click", function(){
     change.innerText=("\nTaipei \n");
+    change.className="ans";
     change.href=("https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8C%97%E5%8C%97%E5%9F%BA/%E5%8C%97%E5%8C%97%E5%9F%BA.html");
     var a = document.createElement("img");
     a.className="image";
