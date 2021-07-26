@@ -180,18 +180,24 @@ section{
 .ans{
     font-size:50px;;color: red;text-decoration:none;text-decoration-color: #ffffff;word-break: normal;word-wrap: normal;transition:0.3s
 }
+.ans:hover{
+    color: #000;
+}
 .image{
-    margin-top: 10px;margin-bottom: 10px;max-width: 80%;box-shadow: #000000 5px 5px 5px;transition: ease 0.3s;
+    margin-top: 10px;margin-bottom: 10px;max-width: 80%;box-shadow: #000000 5px 5px 5px;transition: ease 0.3s;border-radius: 20px;
 }
 .image:hover{
     box-shadow: #000000 15px 15px 15px;transition:0.3s;transform: translateY(-3px);
 }
 #point{
-    right: 0;left: 0px;top: 0px;bottom: 0px;position: fixed;display:flex;justify-content: center;
+    right: 0;left: 0px;top: 0px;bottom: 0px;position: fixed;display:flex;justify-content: center;background-color: #000;
     align-items: center;backdrop-filter: blur(10px);transform: translateY(-100%);transition: 0.5s transform;padding: 50px;
 }
 .max{
     max-height: 100%;cursor: pointer;
+}
+.max img{
+    opacity: 100%;
 }
 .burger{
     display: none;
