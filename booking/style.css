@@ -229,3 +229,24 @@ ol img{
 .search-form{
     display:flex;justify-content:center;margin-top: 70px;height:70px;
 }
+.gallery img{
+    width:100%;height:100%;
+}
+.gallery{
+    padding:5%
+}
+.cell{
+    border-radius:20px;display:flex;box-shadow:black 5px 5px 5px;margin:0 ;
+}
+.gallery img{
+    width:100%;height:100%;transition: 0.2s
+}
+.galary:hover{
+    transform: translateY(-3px) scale(0.9);
+}
+.gallery{
+    padding:5%
+}
+.cell{
+    border-radius:20px;display:flex;box-shadow:black 5px 5px 5px;margin:0 ;
+}
