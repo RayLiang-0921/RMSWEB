@@ -143,15 +143,15 @@ form button:hover{
     flex: 1;max-width: 100%;overflow:hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: 1rem;padding: 1rem;background-color: rgb(255, 246, 246)
+    font-size: 20px;padding: 20px;background-color: rgb(255, 246, 246);
 }
 .trash-btn{
     background-color: teal;color: white;border: none;
-    padding: 1rem;font-size: 1rem;cursor: pointer;transition: 0.4s;
+    padding: 20px;font-size: 20px;cursor: pointer;transition: 0.4s;
 }
 .complete-btn{
     background-color: rgb(0, 221, 0);color: white;transition: 0.4s;
-    padding: 1rem;font-size: 1rem;cursor: pointer;
+    padding: 20px;font-size: 20px;cursor: pointer;
 }
 .trash-btn:hover{
     background-color: rgb(255, 255, 255);color: teal;transition: 0.4s;

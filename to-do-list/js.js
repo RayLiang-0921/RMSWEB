@@ -20,6 +20,7 @@ const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
 const filterOption = document.querySelector(".filter-todo");
+
 //events
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deletecheck);
@@ -27,6 +28,12 @@ filterOption.addEventListener("click" , filterTodo);
 document.addEventListener("DOMContentLoaded", getTodos)
 
 //function
+todoButton.addEventListener("click", function(){
+    const todoInput = document.querySelector(".todo-input");
+    if (todoInput.innerText==""){
+        alert("You need to input things... or it will be no use...");
+    };
+});
 function addTodo(event){
     //prevent
     event.preventDefault();
