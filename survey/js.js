@@ -52,58 +52,58 @@ const select = function(){
         a.innerText="\n"+ i +" \n";
         b.src= i +'.jpg';
         if(i=="Taoyuan"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8C%97%E5%8C%97%E5%9F%BA/%E5%8C%97%E5%8C%97%E5%9F%BA.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%8C%97%E5%8C%97%E5%9F%BA/%E5%8C%97%E5%8C%97%E5%9F%BA.html";
         };
         if(i=="Keelung,New Taipei,Taipei"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E6%A1%83%E5%9C%92/int_%E6%A1%83%E5%9C%92.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E6%A1%83%E5%9C%92/int_%E6%A1%83%E5%9C%92.html";
         };
         if(i=="Taichung"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8F%B0%E4%B8%AD/int_%E5%8F%B0%E4%B8%AD.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%8F%B0%E4%B8%AD/int_%E5%8F%B0%E4%B8%AD.html";
         };
         if(i=="Hsinchu"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E6%96%B0%E7%AB%B9/int_%E6%96%B0%E7%AB%B9.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E6%96%B0%E7%AB%B9/int_%E6%96%B0%E7%AB%B9.html";
         };
         if(i=="Tainan"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8F%B0%E5%8D%97/int_%E5%8F%B0%E5%8D%97.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%8F%B0%E5%8D%97/int_%E5%8F%B0%E5%8D%97.html";
         };
         if(i=="Kaohsiung"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E9%AB%98%E9%9B%84/int_%E9%AB%98%E9%9B%84.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E9%AB%98%E9%9B%84/int_%E9%AB%98%E9%9B%84.html";
         };
         if(i=="Nantou"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8D%97%E6%8A%95/int_%E5%8D%97%E6%8A%95.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%8D%97%E6%8A%95/int_%E5%8D%97%E6%8A%95.html";
         };
         if(i=="Yunlin"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E9%9B%B2%E6%9E%97/int_%E9%9B%B2%E6%9E%97.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E9%9B%B2%E6%9E%97/int_%E9%9B%B2%E6%9E%97.html";
         };
         if(i=="Chiayi"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%98%89%E7%BE%A9/int_%E5%98%89%E7%BE%A9.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%98%89%E7%BE%A9/int_%E5%98%89%E7%BE%A9.html";
         };
         if(i=="Pingtung"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%B1%8F%E6%9D%B1/int_%E5%B1%8F%E6%9D%B1.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%B1%8F%E6%9D%B1/int_%E5%B1%8F%E6%9D%B1.html";
         };
         if(i=="Hualien"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E8%8A%B1%E8%93%AE/int_%E8%8A%B1%E8%93%AE.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E8%8A%B1%E8%93%AE/int_%E8%8A%B1%E8%93%AE.html";
         };
         if(i=="Taitung"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%8F%B0%E6%9D%B1/int_%E5%8F%B0%E6%9D%B1.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%8F%B0%E6%9D%B1/int_%E5%8F%B0%E6%9D%B1.html";
         };
         if(i=="Yilan"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%AE%9C%E8%98%AD/int_%E5%AE%9C%E8%98%AD.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%AE%9C%E8%98%AD/int_%E5%AE%9C%E8%98%AD.html";
         };
         if(i=="Changhua"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E5%BD%B0%E5%8C%96/int_%E5%BD%B0%E5%8C%96.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E5%BD%B0%E5%8C%96/int_%E5%BD%B0%E5%8C%96.html";
         };
         if(i=="Miaoli"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E8%8B%97%E6%A0%97/int_%E8%8B%97%E6%A0%97.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E8%8B%97%E6%A0%97/int_%E8%8B%97%E6%A0%97.html";
         };
         if(i=="Penghu"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E6%BE%8E%E6%B9%96/int_%E6%BE%8E%E6%B9%96.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E6%BE%8E%E6%B9%96/int_%E6%BE%8E%E6%B9%96.html";
         };
         if(i=="Kinmen"){
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E9%87%91%E9%96%80/int_%E9%87%91%E9%96%80.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E9%87%91%E9%96%80/int_%E9%87%91%E9%96%80.html";
         };
         if(i=="Matsu") {
-            a.href= "https://rayliang-0921.github.io/RMSWEB/County%20Introduction/int_%E9%A6%AC%E7%A5%96/int_%E9%A6%AC%E7%A5%96.html";
+            a.href= "https://rmbsweb.netlify.app/County%20Introduction/int_%E9%A6%AC%E7%A5%96/int_%E9%A6%AC%E7%A5%96.html";
         };
         const seleted_Images = document.createElement("img");
         ////popup
