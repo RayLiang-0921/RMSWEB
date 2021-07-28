@@ -1,4 +1,4 @@
-import { api_key } from './config.js';
+import { api_key } from './apikey.js';
 const to_top= document.getElementById("to_top");
 to_top.addEventListener("click", function(){
     window.scrollTo({
