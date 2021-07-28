@@ -1,4 +1,4 @@
-import apikey from "./apikey";
+import { api_key } from './config.js';
 const to_top= document.getElementById("to_top");
 to_top.addEventListener("click", function(){
     window.scrollTo({
@@ -24,7 +24,7 @@ const GetData = async () => {
     fetch('https://hotels-com-provider.p.rapidapi.com/v1/hotels/photos?hotel_id=363464', {
         "method": "GET",
         "headers": {
-            "x-rapidapi-key": apikey,
+            "x-rapidapi-key": api_key,
             "x-rapidapi-host": "hotels-com-provider.p.rapidapi.com"
         }
     })
