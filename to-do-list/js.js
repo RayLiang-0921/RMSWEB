@@ -28,12 +28,6 @@ filterOption.addEventListener("click" , filterTodo);
 document.addEventListener("DOMContentLoaded", getTodos)
 
 //function
-todoButton.addEventListener("click", function(){
-    const todoInput = document.querySelector(".todo-input");
-    if (todoInput.innerText==""){
-        alert("You need to input things... or it will be no use...");
-    };
-});
 function addTodo(event){
     //prevent
     event.preventDefault();
@@ -41,27 +35,30 @@ function addTodo(event){
     const todoDiv = document.createElement('div');
     todoDiv.classList.add("todo");
     //li
-    const newtodo = document.createElement('li');
-    newtodo.innerText = todoInput.value;
-    newtodo.classList.add("todo-item");
-    todoDiv.appendChild(newtodo);
-    saveLocalTodos(todoInput.value);
-    //create complete button
-    const completedButton = document.createElement('button');
-    completedButton.innerHTML= '<i class="fas fa-check-square"></i>';
-    completedButton.classList.add("complete-btn");
-    todoDiv.appendChild(completedButton);
-    //create trash button
-    const trashButton = document.createElement('button');
-    trashButton.innerHTML='<i class="fas fa-trash"></i>';
-    trashButton.classList.add('trash-btn');
-    todoDiv.appendChild(trashButton);
-    //apend to list
-    todoList.appendChild(todoDiv);
-    //clear todoinput
-    todoInput.value="";
+    if(!todoInput.value){
+        alert("You need to add somthing you want to do.")
+    }else{
+        const newtodo = document.createElement('li');
+        newtodo.innerText = todoInput.value;
+        newtodo.classList.add("todo-item");
+        todoDiv.appendChild(newtodo);
+        saveLocalTodos(todoInput.value);    //create complete button
+        const completedButton = document.createElement('button');
+        completedButton.innerHTML= '<i class="fas fa-check-square"></i>';
+        completedButton.classList.add("complete-btn");
+        todoDiv.appendChild(completedButton);
+        //create trash button
+        const trashButton = document.createElement('button');
+        trashButton.innerHTML='<i class="fas fa-trash"></i>';
+        trashButton.classList.add('trash-btn');
+        todoDiv.appendChild(trashButton);
+        //apend to list
+        todoList.appendChild(todoDiv);
+        //clear todoinput
+        todoInput.value="";
+    };
+};
 
-}
 function deletecheck(e){
     const item= e.target;
     if (item.classList[0]==="trash-btn"){
