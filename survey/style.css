@@ -94,6 +94,9 @@ html{
 p{
     word-break: normal;word-wrap: break-word;
 }
+header{
+    position: fixed;width: 100%;z-index: 899;
+}
 .navbar-light .navbar-nav .nav-link{
     color: #000;
     margin-right: 40px;
@@ -255,4 +258,7 @@ section{
 .home{
     transition: 0.35s ease;
     color: #000;padding: 10px
+}
+.nav-fixed-move {
+    transform: translateY(125px);
 }

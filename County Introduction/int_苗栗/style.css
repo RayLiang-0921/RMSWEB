@@ -199,3 +199,9 @@ section img{
     background-color:rgb(185, 185, 185);
     margin: 5px;
 }
+header{
+    position: fixed;width: 100%;z-index: 899;top: 0;
+}
+.nav-fixed-move {
+    transform: translateY(125px);
+}
